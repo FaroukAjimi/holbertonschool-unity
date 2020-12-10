@@ -133,11 +133,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Ball
       objectReference: {fileID: 0}
-    - target: {fileID: 4991524443070707411, guid: fba6eededc8482340b14317a8b4af0bc,
-        type: 3}
-      propertyPath: m_TagString
-      value: Obstacles
-      objectReference: {fileID: 0}
     - target: {fileID: 4991524443070707421, guid: fba6eededc8482340b14317a8b4af0bc,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -304,11 +299,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Black Ball
-      objectReference: {fileID: 0}
-    - target: {fileID: 4991524443070707411, guid: fba6eededc8482340b14317a8b4af0bc,
-        type: 3}
-      propertyPath: m_TagString
-      value: Obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 4991524443070707421, guid: fba6eededc8482340b14317a8b4af0bc,
         type: 3}
@@ -559,11 +549,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Green Ball
       objectReference: {fileID: 0}
-    - target: {fileID: 4991524443070707411, guid: fba6eededc8482340b14317a8b4af0bc,
-        type: 3}
-      propertyPath: m_TagString
-      value: Obstacles
-      objectReference: {fileID: 0}
     - target: {fileID: 4991524443070707421, guid: fba6eededc8482340b14317a8b4af0bc,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -638,11 +623,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Ball
       objectReference: {fileID: 0}
-    - target: {fileID: 4991524443070707411, guid: fba6eededc8482340b14317a8b4af0bc,
-        type: 3}
-      propertyPath: m_TagString
-      value: Obstacles
-      objectReference: {fileID: 0}
     - target: {fileID: 4991524443070707421, guid: fba6eededc8482340b14317a8b4af0bc,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -716,11 +696,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Red Ball
-      objectReference: {fileID: 0}
-    - target: {fileID: 4991524443070707411, guid: fba6eededc8482340b14317a8b4af0bc,
-        type: 3}
-      propertyPath: m_TagString
-      value: Obstacles
       objectReference: {fileID: 0}
     - target: {fileID: 4991524443070707421, guid: fba6eededc8482340b14317a8b4af0bc,
         type: 3}
