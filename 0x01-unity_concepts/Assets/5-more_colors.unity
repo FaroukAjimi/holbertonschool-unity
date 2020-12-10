@@ -136,7 +136,7 @@ PrefabInstance:
     - target: {fileID: 4991524443070707411, guid: fba6eededc8482340b14317a8b4af0bc,
         type: 3}
       propertyPath: m_TagString
-      value: Obstacles
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 4991524443070707421, guid: fba6eededc8482340b14317a8b4af0bc,
         type: 3}
@@ -308,7 +308,7 @@ PrefabInstance:
     - target: {fileID: 4991524443070707411, guid: fba6eededc8482340b14317a8b4af0bc,
         type: 3}
       propertyPath: m_TagString
-      value: Obstacles
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 4991524443070707421, guid: fba6eededc8482340b14317a8b4af0bc,
         type: 3}
@@ -562,7 +562,7 @@ PrefabInstance:
     - target: {fileID: 4991524443070707411, guid: fba6eededc8482340b14317a8b4af0bc,
         type: 3}
       propertyPath: m_TagString
-      value: Obstacles
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 4991524443070707421, guid: fba6eededc8482340b14317a8b4af0bc,
         type: 3}
@@ -641,7 +641,7 @@ PrefabInstance:
     - target: {fileID: 4991524443070707411, guid: fba6eededc8482340b14317a8b4af0bc,
         type: 3}
       propertyPath: m_TagString
-      value: Obstacles
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 4991524443070707421, guid: fba6eededc8482340b14317a8b4af0bc,
         type: 3}
@@ -720,7 +720,7 @@ PrefabInstance:
     - target: {fileID: 4991524443070707411, guid: fba6eededc8482340b14317a8b4af0bc,
         type: 3}
       propertyPath: m_TagString
-      value: Obstacles
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 4991524443070707421, guid: fba6eededc8482340b14317a8b4af0bc,
         type: 3}
