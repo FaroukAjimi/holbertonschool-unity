@@ -8,6 +8,8 @@ public class CameraController : MonoBehaviour
     public Vector3 offset;
     public float rs;
     public Transform pivot;
+    public bool isInverted;
+    private Quaternion rotation;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,13 +22,17 @@ public class CameraController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float hrzntl = Input.GetAxis("Mouse X") * rs;
+        float hrzntl = Input.GetAxis("Mouse X") * (rs);
         target.Rotate(0,hrzntl,0);
-        float vrtcl = Input.GetAxis("Mouse Y") * rs;
+        float vrtcl = Input.GetAxis("Mouse Y") * (rs);
         pivot.Rotate(vrtcl, 0,0); 
         float day = target.eulerAngles.y;
         float dax = pivot.eulerAngles.x;
-        Quaternion rotation = Quaternion.Euler(dax ,day, 0);
+        if(!isInverted){
+        rotation = Quaternion.Euler(dax ,day, 0);
+        }else{
+            rotation = Quaternion.Euler(-dax ,day, 0);
+        }
         transform.position = target.position - (rotation * offset);
         transform.LookAt(target);
     }
