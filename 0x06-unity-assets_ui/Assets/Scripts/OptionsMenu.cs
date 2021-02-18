@@ -8,4 +8,7 @@ public class OptionsMenu : MonoBehaviour
     public void Back(){
     SceneManager.LoadScene(PlayerPrefs.GetInt("LastLevel"));
     }
+    public void Apply(){
+        
+    }
 }
